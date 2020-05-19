@@ -433,6 +433,76 @@ button {
 
 @media (min-width: 0px) and (max-width: 1024px) {
 
+  .total-header .header-left .infos-header .info-top h1 {
+    font-size: 64px;
+  }
+
+  .total-header .header-left .infos-header .info-aprovados h2 {
+    font-size: 32px;
+  }
+
+  .total-turma-presencial h2 {
+    font-size: 32px;
+  }
+
+  .total-header .header-left .infos-header {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .total-header .header-left {
+    width: 100%;
+  }
+
+  .total-header .header-left .infos-header .info-top {
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .total-header .header-left .border-diagonal,
+  .total-header .header-left .img-dr-ibar {
+    display: none;
+  }
+
+  .total-header .header-left .infos-header .info-aprovados {
+    width: calc(100% - 32px);
+    text-align: center;
+    padding: 16px;
+  }
+
+  .total-header .header-left .info-dr-ivar {
+    text-align: center;
+    padding: 16px;
+    margin: 0px;
+    align-items: center;
+  }
+
+  .total-turma-presencial .periodo-turmas {
+    flex-direction: column;
+  }
+
+  .total-turma-presencial .periodo-turmas h4 {
+    margin-bottom: 8px;
+  }
+
+  .total-turma-presencial .periodo-turmas span {
+    margin-bottom: 32px;
+  }
+
+  .total-turma-presencial .valores-turma {
+    flex-direction: column;
+  }
+
+  .total-turma-presencial .valores-turma .valor-parcelado {
+    margin: 0 0 32px 0;
+  }
+
+  .total-turma-presencial .formas-pagamento a {
+    width: auto;
+  }
+
   .total-video h2 {
     font-size: 24px;
   }
